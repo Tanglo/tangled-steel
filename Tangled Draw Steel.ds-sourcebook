@@ -1,0 +1,2150 @@
+{
+	"id": "9JvCH-ngz7B-2hKUf-654Bk-HJSy8-BSTo7",
+	"name": "Canberra face-to-face 2025",
+	"description": "A set of content used for Prabha's CBR table, that commenced in Q4 2025.",
+	"type": "Homebrew",
+	"adventures": [
+		{
+			"id": "tIVt4xJ4YQy3iCiZ",
+			"name": "The Blackhill mines",
+			"description": "The regional mining town of Blackhill has ceased supplying Broadhust and Salthaven with ore and coal.  It's not clear why, but this is causing issues for the smelters, smiths and other crafts people in the region.",
+			"party": {
+				"count": 3,
+				"level": 2
+			},
+			"introduction": [
+				{
+					"id": "TZnLNmKbrVKNfgfz",
+					"name": "Introduction",
+					"description": ""
+				},
+				{
+					"id": "c4zm3OXqFE3yKBJI",
+					"name": "Hooks",
+					"description": "* The party will learn about the lack of supply of ore and coal from Blackhill from the smiths in Broadhurst or Salthaven.\n* If the party completed the 'Road to Broadhurst' conventure and decide, after the fact, to investigate the source of the Raidenwight raid, they may track the raiding party back to Blackhill.  The leader of that raid is the Chief Ranger of Blackhill.\n* Following the road North to Blackhill will have the party discover the village.\n* There has been an increase in raiding activity on the roads between Salthaven and Broadhurst.  If this is investigated it will lead to the discovery of a Blackhill raiding party."
+				},
+				{
+					"id": "1TdD2Lkla0cBJa1H",
+					"name": "Trouble in Blackhill",
+					"description": "The party discovers a desperate Blackhill, food and other resources are tight.  The mines are inactive, and the miners are too scared to return to work."
+				},
+				{
+					"id": "ORZbU2QZPSiyFNsz",
+					"name": "The coal mine",
+					"description": ""
+				},
+				{
+					"id": "WoF6KNsk7PlALdaJ",
+					"name": "The iron mine - Lvls 1 & 2",
+					"description": ""
+				},
+				{
+					"id": "TVqpo1AUmEFBOaFU",
+					"name": "The iron mine - Lvl 3",
+					"description": ""
+				},
+				{
+					"id": "RAM7k-sPdKR-uHYvv-WDNWd-w6DCZ-OZSPo",
+					"name": "Dark Heart - Blackhill Cat and Mutton",
+					"description": ""
+				}
+			],
+			"plot": {
+				"id": "9zY3nKeaNZ7J5GMg",
+				"name": "The Blackhill mines",
+				"description": "",
+				"content": [],
+				"plots": [
+					{
+						"id": "ITYdBLNHjamBYI8X",
+						"name": "Blackhill bandits",
+						"description": "Without its mining economy, the town of Blackhill has become desperate, and its people have started raiding for food and medicine.  If the adventurer's have completed the 'Road to Broadhurst' conventure, then the Raidenwight raiding party was from Blackhill and led by the lead ranger.\n\nThey are not yet raiding towns directly, and have steered clear of their primary trading partners, Salthaven and Broadhurst.",
+						"content": [
+							{
+								"id": "5ZmG1F3Wvr56Uvk9",
+								"contentType": "reference",
+								"type": "encounter",
+								"contentID": "VumBYXp3TfJhm38K"
+							}
+						],
+						"plots": [],
+						"links": [
+							{
+								"id": "7yOOH-CgNWV-GZGGG-P4KGU-Tr4v4-tPhIE",
+								"plotID": "9gkZq-Ogc28-vbcrJ-MZvw9-J0jLq-Vikyd",
+								"label": ""
+							}
+						]
+					},
+					{
+						"id": "b3ORZT2Gh57MrnnO",
+						"name": "Kobold miners",
+						"description": "A group of Kobolds, under the leadership of a centurion, has fallen under the influence of a thorn dragon and have taken over the mines of Blackhill.  If the centurion is defeated the mines can be reclaimed.\n\nIf the dragon is not defeated, a the dragon will begin to attack Blackhill after 2 respites have passed.",
+						"content": [],
+						"plots": [],
+						"links": []
+					},
+					{
+						"id": "c6QxkK3DbQSjUeJb",
+						"name": "Getting to Blackhill",
+						"description": "There is a road to Blackhill, off the road between Salthaven and Broadhurst, but the road is known to be hazardous.  It has become prone to bandits and raiding parties recently, and not well travelled now that the merchants are not trading with Blackhill.",
+						"content": [
+							{
+								"id": "YcOxovBigSFLYKz0",
+								"contentType": "reference",
+								"type": "montage",
+								"contentID": "bmGXYwNYvgYsSkRZ"
+							}
+						],
+						"plots": [],
+						"links": [
+							{
+								"id": "Ic2WHW2JbFeAa8bz",
+								"plotID": "ITYdBLNHjamBYI8X",
+								"label": ""
+							}
+						]
+					},
+					{
+						"id": "9gkZq-Ogc28-vbcrJ-MZvw9-J0jLq-Vikyd",
+						"name": "Blackhill - Cat and Mutton fight (Dark Heart)",
+						"description": "This is the First Threxyl encounter from Dark Heart, adapted to be based in Blackhill.",
+						"content": [
+							{
+								"id": "PqAZE-MKscK-LeBdm-IkUl1-A7PCe-PPX5O",
+								"contentType": "reference",
+								"type": "encounter",
+								"contentID": "icjsQ-yQlQ7-piddW-TYtAe-dnUnb-1vz5Y"
+							}
+						],
+						"plots": [],
+						"links": []
+					}
+				],
+				"links": []
+			}
+		}
+	],
+	"ancestries": [],
+	"careers": [],
+	"classes": [],
+	"complications": [],
+	"cultures": [],
+	"domains": [],
+	"encounters": [
+		{
+			"id": "VumBYXp3TfJhm38K",
+			"name": "Blackhill bandits",
+			"description": "With their mine taken over the livelihoods of the Blackhill residents has been taken away.  In desperation, they have turned to banditry and raiding.  Heroes coming from Salthaven or Broadhurst will not yet know this, because the Blackhill bandits and raiders have so far stayed clear of their former trading partners.\n\nBlackhill is a mixed community, and this bandit party represents the residents of Blackhill.\n\nThis is an opportunistic attack that takes pace on the road, as the party gets within a days travel of Blackhill.\n\nThe area is a particularly rough area of forrest, and brambles and vines have started to overgrow parts of the area.  The bandits have attacked from an area where brambles have grown up against the road.",
+			"groups": [
+				{
+					"id": "BAjsqIHLTkgf9n3L",
+					"name": "",
+					"slots": [
+						{
+							"id": "gP7Q8uUCDeDfvh7x",
+							"monsterID": "dwarf-7",
+							"count": 1,
+							"customization": {
+								"addOnIDs": [],
+								"itemIDs": [],
+								"levelAdjustment": 0,
+								"convertToSolo": false
+							},
+							"monsters": [],
+							"state": {
+								"staminaDamage": 0,
+								"staminaTemp": 0,
+								"recoveriesUsed": 0,
+								"conditions": [],
+								"reactionUsed": false,
+								"hidden": false,
+								"defeated": false
+							}
+						},
+						{
+							"id": "2qWZyJQ5UB7j02cp",
+							"monsterID": "dwarf-1",
+							"count": 1,
+							"customization": {
+								"addOnIDs": [],
+								"itemIDs": [],
+								"levelAdjustment": 0,
+								"convertToSolo": false
+							},
+							"monsters": [],
+							"state": {
+								"staminaDamage": 0,
+								"staminaTemp": 0,
+								"recoveriesUsed": 0,
+								"conditions": [],
+								"reactionUsed": false,
+								"hidden": false,
+								"defeated": false
+							}
+						}
+					],
+					"encounterState": "ready"
+				},
+				{
+					"id": "SwWJeopeSW1WnXBw",
+					"name": "",
+					"slots": [
+						{
+							"id": "vQNT0W5xobCDpjTm",
+							"monsterID": "human-13",
+							"count": 1,
+							"customization": {
+								"addOnIDs": [],
+								"itemIDs": [],
+								"levelAdjustment": 0,
+								"convertToSolo": false
+							},
+							"monsters": [],
+							"state": {
+								"staminaDamage": 0,
+								"staminaTemp": 0,
+								"recoveriesUsed": 0,
+								"conditions": [],
+								"reactionUsed": false,
+								"hidden": false,
+								"defeated": false
+							}
+						}
+					],
+					"encounterState": "ready"
+				},
+				{
+					"id": "q1zs2SK1KdxbBo40",
+					"name": "",
+					"slots": [
+						{
+							"id": "07Oj7OsXjSckLgFa",
+							"monsterID": "radenwight-5",
+							"count": 1,
+							"customization": {
+								"addOnIDs": [],
+								"itemIDs": [],
+								"levelAdjustment": 0,
+								"convertToSolo": false
+							},
+							"monsters": [],
+							"state": {
+								"staminaDamage": 0,
+								"staminaTemp": 0,
+								"recoveriesUsed": 0,
+								"conditions": [],
+								"reactionUsed": false,
+								"hidden": false,
+								"defeated": false
+							}
+						}
+					],
+					"encounterState": "ready"
+				},
+				{
+					"id": "6a4RloL2t2guva5D",
+					"name": "",
+					"slots": [
+						{
+							"id": "0nkuptinlF6wv0JQ",
+							"monsterID": "radenwight-5",
+							"count": 1,
+							"customization": {
+								"addOnIDs": [],
+								"itemIDs": [],
+								"levelAdjustment": 0,
+								"convertToSolo": false
+							},
+							"monsters": [],
+							"state": {
+								"staminaDamage": 0,
+								"staminaTemp": 0,
+								"recoveriesUsed": 0,
+								"conditions": [],
+								"reactionUsed": false,
+								"hidden": false,
+								"defeated": false
+							}
+						}
+					],
+					"encounterState": "ready"
+				}
+			],
+			"terrain": [
+				{
+					"id": "98Tvie7gT1DlA0bt",
+					"terrainID": "terrain-brambles",
+					"upgradeIDs": [],
+					"count": 1,
+					"terrain": []
+				}
+			],
+			"heroes": [],
+			"objective": null,
+			"notes": [
+				{
+					"id": "RXoxpdtZNVgAZ8vv",
+					"name": "Tactics",
+					"description": "The dwarfs will try to stay behind the brambles and attack over them.\n\nThe radenwight bruxers will each move to one end of the brambles to try and keep the heroes contained.\n\nThe leader will roam and operate as a tactician.  Keeping at range, and defending the dwarfs if a hero escapes the bruxers.\n\nOn the third round, and anytime a hero is dying or dead, the leader will offer surrender and capture as an option.  If the heroes refuse, they will offer that if they leave now their fried will be spared."
+				},
+				{
+					"id": "0e5bb2da-8bce-4d32-bc13-f5b9a17b02ae",
+					"name": "Diminish Numbers",
+					"description": "\nThe bandits will retreat if they lose the leader, both bruxers, or all of the dwarfs.\n\n### Difficulty Modifier\n\nThis objective doesn’t modify the encounter’s difficulty.\n\n### Success Condition\n\nDefeat all emenies, or force them to retreat.\n\n### Failure Condition\n\nHeroes are defeated.  In which case they are captured and taken to Blackhill.\n\n### Victories\n\n1 victory if the Bandits retreat.\n\n2 victories if all enemies are defeated."
+				}
+			],
+			"round": 0,
+			"malice": 0,
+			"additionalTurnsTaken": [],
+			"hiddenMaliceFeatures": [
+				"dwarf-malice-1",
+				"dwarf-malice-2",
+				"radenwight-malice-3"
+			]
+		},
+		{
+			"id": "icjsQ-yQlQ7-piddW-TYtAe-dnUnb-1vz5Y",
+			"name": "Dark Heart - I1. Bar (3 Heroes)",
+			"description": "Adapted from Dark Heart I1. for 3 Heroes.",
+			"groups": [
+				{
+					"id": "YX0P9-eqNgG-zmLSC-8zIq2-fIq7L-659K4",
+					"name": "Group 1",
+					"slots": [
+						{
+							"id": "h8ofR-aGXNv-osiws-yh7Th-HW52g-51Sdk",
+							"monsterID": "ctsQk-QJdVE-ntsxv-u2q5x-IYNlP-sSDgX",
+							"count": 1,
+							"customization": {
+								"addOnIDs": [],
+								"itemIDs": [],
+								"levelAdjustment": 0,
+								"convertToSolo": false
+							},
+							"monsters": [],
+							"state": {
+								"staminaDamage": 0,
+								"staminaTemp": 0,
+								"recoveriesUsed": 0,
+								"conditions": [],
+								"reactionUsed": false,
+								"hidden": false,
+								"defeated": false
+							}
+						}
+					],
+					"encounterState": "ready"
+				},
+				{
+					"id": "sFP8G-RNZcH-xKvVy-PaFX3-fA4Gu-QmWMA",
+					"name": "",
+					"slots": [
+						{
+							"id": "slwGd-CpJ9h-FxaWB-n4cNL-W5P3e-Cf69s",
+							"monsterID": "TrR7k-LqtGd-dgcGA-J9gGD-czzrP-7om47",
+							"count": 2,
+							"customization": {
+								"addOnIDs": [],
+								"itemIDs": [],
+								"levelAdjustment": 0,
+								"convertToSolo": false
+							},
+							"monsters": [],
+							"state": {
+								"staminaDamage": 0,
+								"staminaTemp": 0,
+								"recoveriesUsed": 0,
+								"conditions": [],
+								"reactionUsed": false,
+								"hidden": false,
+								"defeated": false
+							}
+						}
+					],
+					"encounterState": "ready"
+				},
+				{
+					"id": "WeEmo-6e04O-b1aro-H6qaD-AT9tr-E0n2E",
+					"name": "",
+					"slots": [
+						{
+							"id": "ZvPWZ-bBCUl-2zz0n-ZEObz-7cGbO-HmTeg",
+							"monsterID": "BjxNx-tx8Ww-B35Yd-9orUz-ImVHl-XOPN4",
+							"count": 1,
+							"customization": {
+								"addOnIDs": [],
+								"itemIDs": [],
+								"levelAdjustment": 0,
+								"convertToSolo": false
+							},
+							"monsters": [],
+							"state": {
+								"staminaDamage": 0,
+								"staminaTemp": 0,
+								"recoveriesUsed": 0,
+								"conditions": [],
+								"reactionUsed": false,
+								"hidden": false,
+								"defeated": false
+							}
+						}
+					],
+					"encounterState": "ready"
+				},
+				{
+					"id": "Z6A0M-4ZqLt-20R0h-xwtEY-tY0GE-LYc5l",
+					"name": "",
+					"slots": [
+						{
+							"id": "Vplbd-gMmrf-ySP90-BoHeX-IM91T-5aIwA",
+							"monsterID": "BjxNx-tx8Ww-B35Yd-9orUz-ImVHl-XOPN4",
+							"count": 1,
+							"customization": {
+								"addOnIDs": [],
+								"itemIDs": [],
+								"levelAdjustment": 0,
+								"convertToSolo": false
+							},
+							"monsters": [],
+							"state": {
+								"staminaDamage": 0,
+								"staminaTemp": 0,
+								"recoveriesUsed": 0,
+								"conditions": [],
+								"reactionUsed": false,
+								"hidden": false,
+								"defeated": false
+							}
+						}
+					],
+					"encounterState": "ready"
+				},
+				{
+					"id": "YhCu0-R9A47-n8JvK-r3r5w-yoOkr-EnMIu",
+					"name": "",
+					"slots": [
+						{
+							"id": "7D0mg-g6AvB-fSIxs-U54Gl-60BtA-2oht8",
+							"monsterID": "BjxNx-tx8Ww-B35Yd-9orUz-ImVHl-XOPN4",
+							"count": 1,
+							"customization": {
+								"addOnIDs": [],
+								"itemIDs": [],
+								"levelAdjustment": 0,
+								"convertToSolo": false
+							},
+							"monsters": [],
+							"state": {
+								"staminaDamage": 0,
+								"staminaTemp": 0,
+								"recoveriesUsed": 0,
+								"conditions": [],
+								"reactionUsed": false,
+								"hidden": false,
+								"defeated": false
+							}
+						}
+					],
+					"encounterState": "ready"
+				}
+			],
+			"terrain": [],
+			"heroes": [],
+			"objective": null,
+			"notes": [],
+			"round": 0,
+			"malice": 0,
+			"additionalTurnsTaken": [],
+			"hiddenMaliceFeatures": []
+		}
+	],
+	"imbuements": [],
+	"items": [],
+	"kits": [],
+	"monsterGroups": [
+		{
+			"id": "f4Pj5-Hfs0r-4RBVc-beLtt-gOgIn-h6L0t",
+			"name": "Threxyls",
+			"description": "The Threxyls from Dark Heart",
+			"picture": null,
+			"information": [],
+			"malice": [
+				{
+					"id": "beOFv-2JSWZ-ZzS9M-RQ2km-iGaxn-z8Ev1",
+					"name": "Turgor Pressure",
+					"description": "",
+					"type": "Malice",
+					"data": {
+						"cost": 3,
+						"repeatable": false,
+						"sections": [
+							"A threxyl acting this turn either jumps 2 squares or uses the Knockback maneuver with no action required."
+						],
+						"echelon": 1
+					}
+				},
+				{
+					"id": "zavC4-gRUQH-daroq-iKIzq-lQiz0-fLmkc",
+					"name": "Chemical Sting",
+					"description": "",
+					"type": "Malice",
+					"data": {
+						"cost": 5,
+						"repeatable": false,
+						"sections": [
+							"The next melee strike made by a threxyl acting this turn also makes the target slowed and weakened (EoT)."
+						],
+						"echelon": 1
+					}
+				},
+				{
+					"id": "UjTjf-76HOW-Fdqsj-VH4Mo-p5VG3-gvxjQ",
+					"name": "Dragging Roots",
+					"description": "",
+					"type": "Malice",
+					"data": {
+						"cost": 7,
+						"repeatable": false,
+						"sections": [
+							"Each threxyl in the encounter slides each adjacent enemy up to 4 squares."
+						],
+						"echelon": 1
+					}
+				}
+			],
+			"addOns": [],
+			"monsters": [
+				{
+					"id": "ctsQk-QJdVE-ntsxv-u2q5x-IYNlP-sSDgX",
+					"name": "Threxyl Siphon",
+					"description": "",
+					"picture": null,
+					"level": 1,
+					"role": {
+						"type": "Brute",
+						"organization": "Platoon"
+					},
+					"keywords": [
+						"Plant"
+					],
+					"encounterValue": 6,
+					"size": {
+						"value": 1,
+						"mod": "M"
+					},
+					"speed": {
+						"value": 6,
+						"modes": [
+							"Burrow"
+						]
+					},
+					"stamina": 40,
+					"stability": 3,
+					"freeStrikeDamage": 2,
+					"freeStrikeType": "Damage",
+					"characteristics": [
+						{
+							"characteristic": "Might",
+							"value": 2
+						},
+						{
+							"characteristic": "Agility",
+							"value": 2
+						},
+						{
+							"characteristic": "Reason",
+							"value": -2
+						},
+						{
+							"characteristic": "Intuition",
+							"value": -2
+						},
+						{
+							"characteristic": "Presence",
+							"value": -2
+						}
+					],
+					"features": [
+						{
+							"id": "U9bKC-Z8xR6-x5NXO-BVg1a-d5s8l-surps",
+							"name": "Flower Jaws",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "Happu-PZQSf-U7aMu-lltGa-9iHOD-5dTX4",
+									"name": "Flower Jaws",
+									"description": "",
+									"type": {
+										"usage": "Main Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false
+									},
+									"keywords": [],
+									"distance": [
+										{
+											"type": "Melee",
+											"value": 1,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "One creature",
+									"cost": "signature",
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "roll",
+											"roll": {
+												"characteristic": [],
+												"bonus": 2,
+												"tier1": "4 damage; M<0 grabbed",
+												"tier2": "6 damage; M<1 grabbed",
+												"tier3": "7 damage; <2 grabbed, and the target has a bane on the Escape Grab Manoeuvre"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "vOsgM-6IOC4-HdHda-zl3p2-JhjNr-tqSm2",
+							"name": "Lifeleech",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "hTPK6-PTDQ6-uRhLq-KiaqL-hSPve-3p5Ws",
+									"name": "Lifeleech",
+									"description": "",
+									"type": {
+										"usage": "Maneuver",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false
+									},
+									"keywords": [
+										"Magic"
+									],
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "One creature grabbed by the siphon",
+									"cost": 0,
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "text",
+											"text": "**Effect:** The target takes 3 corruption damage, and the siphon regains 3 Stamina."
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "o90xN-t3dvo-tSsri-T36TL-QI4XY-tjYoU",
+							"name": "Jagged Stings",
+							"description": "Whenever an adjacent enemy grabs the siphon or uses a melee ability against them, that enemy takes 3 poison damage.",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "epdEg-tGufI-CvUko-Uc6Y7-9AHdp-2cEnT",
+							"name": "Slithering",
+							"description": "The siphon doesn’t provoke opportunity attacks when moving.",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "nx1IZ-PEQkB-gO8Qt-Kf1Sn-BybOE-M7Ss8",
+							"name": "Cryptochrome",
+							"description": "The siphon ignores concealment created by darkness",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "cIWBR-HFXgW-rNkYX-igI7A-henks-tc3IO",
+							"name": "Fire weakness",
+							"description": "",
+							"type": "Damage Modifier",
+							"data": {
+								"modifiers": [
+									{
+										"damageType": "Fire",
+										"type": "Weakness",
+										"value": 3,
+										"valueFromController": null,
+										"valueCharacteristics": [],
+										"valueCharacteristicMultiplier": 1,
+										"valuePerLevel": 0,
+										"valuePerEchelon": 0
+									}
+								]
+							}
+						}
+					],
+					"withCaptain": "",
+					"retainer": null,
+					"state": {
+						"staminaDamage": 0,
+						"staminaTemp": 0,
+						"recoveriesUsed": 0,
+						"conditions": [],
+						"reactionUsed": false,
+						"hidden": false,
+						"defeated": false
+					}
+				},
+				{
+					"id": "TrR7k-LqtGd-dgcGA-J9gGD-czzrP-7om47",
+					"name": "Threxyl Detector",
+					"description": "The Threxyl Detector from Dark Heart.",
+					"picture": null,
+					"level": 1,
+					"role": {
+						"type": "Hexer",
+						"organization": "Horde"
+					},
+					"keywords": [
+						"Plant"
+					],
+					"encounterValue": 3,
+					"size": {
+						"value": 1,
+						"mod": "M"
+					},
+					"speed": {
+						"value": 7,
+						"modes": [
+							"Burrow"
+						]
+					},
+					"stamina": 10,
+					"stability": 2,
+					"freeStrikeDamage": 2,
+					"freeStrikeType": "Damage",
+					"characteristics": [
+						{
+							"characteristic": "Might",
+							"value": 1
+						},
+						{
+							"characteristic": "Agility",
+							"value": 2
+						},
+						{
+							"characteristic": "Reason",
+							"value": -2
+						},
+						{
+							"characteristic": "Intuition",
+							"value": -2
+						},
+						{
+							"characteristic": "Presence",
+							"value": -2
+						}
+					],
+					"features": [
+						{
+							"id": "VqdO3-wyp0D-trR8T-6cJwy-IiB9D-lLRFO",
+							"name": "Pollinating Strike",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "QlKUD-UdYxf-pNzh5-Xa9Va-WPvhz-hgmWh",
+									"name": "Pollinating Strike",
+									"description": "",
+									"type": {
+										"usage": "Main Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false
+									},
+									"keywords": [
+										"Melee",
+										"Strike",
+										"Weapon"
+									],
+									"distance": [
+										{
+											"type": "Melee",
+											"value": 1,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "One creature or object",
+									"cost": "signature",
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "roll",
+											"roll": {
+												"characteristic": [],
+												"bonus": 2,
+												"tier1": "3 damage",
+												"tier2": "4 damage",
+												"tier3": "5 damage"
+											}
+										},
+										{
+											"type": "text",
+											"text": "**Effect:** Allies gain an edge on the next strike made against this target."
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "N5vnT-OjZKN-lIFXx-Y8XlV-wZKNj-9qzT2",
+							"name": "Sickly Glow",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "NAqxI-WsRoe-0QB5u-Kagia-wn8g1-JCKgd",
+									"name": "Sickly Glow",
+									"description": "",
+									"type": {
+										"usage": "Main Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false
+									},
+									"keywords": [
+										"Magic",
+										"Melee"
+									],
+									"distance": [
+										{
+											"type": "Melee",
+											"value": 1,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "One creature or object",
+									"cost": 1,
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "roll",
+											"roll": {
+												"characteristic": [],
+												"bonus": 2,
+												"tier1": "1 corruption damage; i<0 dazed (SE)",
+												"tier2": "3 corruption damage; i<1 dazed (SE)",
+												"tier3": "4 corruption damage; i<2 dazed (SE)"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "CKulg-tKC9U-7EZOg-8hqPN-mGgit-QpOks",
+							"name": "Slithering",
+							"description": "The detector doesn’t provoke opportunity attacks when moving",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "qhRJF-3EU0p-hSFlb-Ldisf-xOUX4-uouK4",
+							"name": "Cryptochrome",
+							"description": "The detector ignores concealment created by darkness.",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "tXkT8-mlNqi-Z1K94-o7RbR-pTm72-rtuLk",
+							"name": "Fire weakness 3",
+							"description": "",
+							"type": "Damage Modifier",
+							"data": {
+								"modifiers": [
+									{
+										"damageType": "Fire",
+										"type": "Weakness",
+										"value": 3,
+										"valueFromController": null,
+										"valueCharacteristics": [],
+										"valueCharacteristicMultiplier": 1,
+										"valuePerLevel": 0,
+										"valuePerEchelon": 0
+									}
+								]
+							}
+						}
+					],
+					"withCaptain": "",
+					"retainer": null,
+					"state": {
+						"staminaDamage": 0,
+						"staminaTemp": 0,
+						"recoveriesUsed": 0,
+						"conditions": [],
+						"reactionUsed": false,
+						"hidden": false,
+						"defeated": false
+					}
+				},
+				{
+					"id": "BjxNx-tx8Ww-B35Yd-9orUz-ImVHl-XOPN4",
+					"name": "Threxyl Lariat",
+					"description": "",
+					"picture": null,
+					"level": 1,
+					"role": {
+						"type": "Controller",
+						"organization": "Minion"
+					},
+					"keywords": [
+						"Plant"
+					],
+					"encounterValue": 3,
+					"size": {
+						"value": 1,
+						"mod": "M"
+					},
+					"speed": {
+						"value": 6,
+						"modes": []
+					},
+					"stamina": 3,
+					"stability": 1,
+					"freeStrikeDamage": 1,
+					"freeStrikeType": "Damage",
+					"characteristics": [
+						{
+							"characteristic": "Might",
+							"value": 1
+						},
+						{
+							"characteristic": "Agility",
+							"value": 2
+						},
+						{
+							"characteristic": "Reason",
+							"value": -2
+						},
+						{
+							"characteristic": "Intuition",
+							"value": -2
+						},
+						{
+							"characteristic": "Presence",
+							"value": -1
+						}
+					],
+					"features": [
+						{
+							"id": "DMbuo-IHXTD-6B88s-HR65F-egdcj-VoNaX",
+							"name": "Vine snare",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "gWaZN-54JcQ-LuPqk-R9TMB-7gYSR-QL3Nu",
+									"name": "Vine snare",
+									"description": "",
+									"type": {
+										"usage": "Main Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false
+									},
+									"keywords": [
+										"Ranged",
+										"Strike",
+										"Weapon"
+									],
+									"distance": [
+										{
+											"type": "Ranged",
+											"value": 5,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "One creature or object per minion",
+									"cost": "signature",
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "roll",
+											"roll": {
+												"characteristic": [],
+												"bonus": 2,
+												"tier1": "1 damage; pull 2",
+												"tier2": "2 damage; pull 3",
+												"tier3": "3 damage; pull 4"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "qgUH7-iOPBq-rBojR-T0B5W-CAHtw-OB07A",
+							"name": "Fire weakness",
+							"description": "",
+							"type": "Damage Modifier",
+							"data": {
+								"modifiers": [
+									{
+										"damageType": "Fire",
+										"type": "Weakness",
+										"value": 3,
+										"valueFromController": null,
+										"valueCharacteristics": [],
+										"valueCharacteristicMultiplier": 1,
+										"valuePerLevel": 0,
+										"valuePerEchelon": 0
+									}
+								]
+							}
+						}
+					],
+					"withCaptain": "",
+					"retainer": null,
+					"state": {
+						"staminaDamage": 0,
+						"staminaTemp": 0,
+						"recoveriesUsed": 0,
+						"conditions": [],
+						"reactionUsed": false,
+						"hidden": false,
+						"defeated": false
+					}
+				},
+				{
+					"id": "fyu5W-LK28C-SlBvu-MoMuc-NVeJf-waisf",
+					"name": "Threxyl Nightshade",
+					"description": "",
+					"picture": null,
+					"level": 2,
+					"role": {
+						"type": "Artillery",
+						"organization": "Platoon"
+					},
+					"keywords": [
+						"Plant"
+					],
+					"encounterValue": 8,
+					"size": {
+						"value": 1,
+						"mod": "M"
+					},
+					"speed": {
+						"value": 5,
+						"modes": [
+							"Climb"
+						]
+					},
+					"stamina": 20,
+					"stability": 1,
+					"freeStrikeDamage": 5,
+					"freeStrikeType": "Damage",
+					"characteristics": [
+						{
+							"characteristic": "Might",
+							"value": 2
+						},
+						{
+							"characteristic": "Agility",
+							"value": 0
+						},
+						{
+							"characteristic": "Reason",
+							"value": -1
+						},
+						{
+							"characteristic": "Intuition",
+							"value": -1
+						},
+						{
+							"characteristic": "Presence",
+							"value": -2
+						}
+					],
+					"features": [
+						{
+							"id": "eEZQC-lwg1Z-K3oip-n9htW-LN7ey-Pdf5E",
+							"name": "Desiccating Needle",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "z97Su-Io7Vx-P9IPb-A0Jnr-VY1s3-hf9F0",
+									"name": "Desiccating Needle",
+									"description": "",
+									"type": {
+										"usage": "Main Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false
+									},
+									"keywords": [
+										"Ranged",
+										"Strike",
+										"Weapon"
+									],
+									"distance": [
+										{
+											"type": "Ranged",
+											"value": 15,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "One creature or object",
+									"cost": "signature",
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "roll",
+											"roll": {
+												"characteristic": [],
+												"bonus": 2,
+												"tier1": "7 damage; M<0 slowed (SE)",
+												"tier2": "10 damage; M<1 slowed (SE)",
+												"tier3": "13 damage; M<2 slowed (SE)"
+											}
+										},
+										{
+											"type": "field",
+											"name": "",
+											"value": 0,
+											"repeatable": false,
+											"effect": "**Effect:** Allies gain an edge on the next strike made against this target."
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "rZ5P0-GKOYn-fASCN-OlGJB-QwfoO-59SEF",
+							"name": "Rapid Fire",
+							"description": "At the start of each of their turns, the nightshade can make a free strike as a free manoeuvre.",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "wbPOa-lXNU1-tgHgq-5kOwx-V35A9-gN1LK",
+							"name": "Cryptochrome",
+							"description": "The nightshade ignores concealment created by darkness.",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "1WpxH-gCXxD-aS0NX-mUYEf-31q5V-nQeyX",
+							"name": "Fire weakness",
+							"description": "",
+							"type": "Damage Modifier",
+							"data": {
+								"modifiers": [
+									{
+										"damageType": "Fire",
+										"type": "Weakness",
+										"value": 3,
+										"valueFromController": null,
+										"valueCharacteristics": [],
+										"valueCharacteristicMultiplier": 1,
+										"valuePerLevel": 0,
+										"valuePerEchelon": 0
+									}
+								]
+							}
+						}
+					],
+					"withCaptain": "",
+					"retainer": null,
+					"state": {
+						"staminaDamage": 0,
+						"staminaTemp": 0,
+						"recoveriesUsed": 0,
+						"conditions": [],
+						"reactionUsed": false,
+						"hidden": false,
+						"defeated": false
+					}
+				},
+				{
+					"id": "jZWOE-3pykW-Rqdez-nkwvt-4Jovd-CcmHn",
+					"name": "Threxyl Susurrus",
+					"description": "",
+					"picture": null,
+					"level": 2,
+					"role": {
+						"type": "Ambusher",
+						"organization": "Elite"
+					},
+					"keywords": [
+						"Plant"
+					],
+					"encounterValue": 16,
+					"size": {
+						"value": 2,
+						"mod": "M"
+					},
+					"speed": {
+						"value": 9,
+						"modes": [
+							"Climb"
+						]
+					},
+					"stamina": 80,
+					"stability": 1,
+					"freeStrikeDamage": 5,
+					"freeStrikeType": "Damage",
+					"characteristics": [
+						{
+							"characteristic": "Might",
+							"value": 2
+						},
+						{
+							"characteristic": "Agility",
+							"value": 2
+						},
+						{
+							"characteristic": "Reason",
+							"value": -1
+						},
+						{
+							"characteristic": "Intuition",
+							"value": -1
+						},
+						{
+							"characteristic": "Presence",
+							"value": -2
+						}
+					],
+					"features": [
+						{
+							"id": "EsZsd-SVbxb-C2FI5-DGZiq-OKkMa-WPKhv",
+							"name": "Fire weakness",
+							"description": "",
+							"type": "Damage Modifier",
+							"data": {
+								"modifiers": [
+									{
+										"damageType": "Fire",
+										"type": "Weakness",
+										"value": 3,
+										"valueFromController": null,
+										"valueCharacteristics": [],
+										"valueCharacteristicMultiplier": 1,
+										"valuePerLevel": 0,
+										"valuePerEchelon": 0
+									}
+								]
+							}
+						},
+						{
+							"id": "fGEIh-sfA1y-krgCY-bJpwP-jgxca-hojjX",
+							"name": "Ripping Razors",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "jJzss-3sr2D-Jn0tS-dbyFw-F4ER1-d0pEb",
+									"name": "Ripping Razors",
+									"description": "",
+									"type": {
+										"usage": "Main Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false
+									},
+									"keywords": [
+										"Melee",
+										"Strike",
+										"Weapon"
+									],
+									"distance": [
+										{
+											"type": "Melee",
+											"value": 1,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "Two creatures or objects",
+									"cost": "signature",
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "roll",
+											"roll": {
+												"characteristic": [],
+												"bonus": 2,
+												"tier1": "7 damage; A<1 bleeding (SE)",
+												"tier2": "11 damage; A<2 bleeding (SE)",
+												"tier3": "14 damage; A<3 bleeding (SE)"
+											}
+										},
+										{
+											"type": "field",
+											"name": "Effect",
+											"value": 0,
+											"repeatable": false,
+											"effect": " If the susurrus started their turn hidden from the target, this ability deals an extra 4 damage."
+										},
+										{
+											"type": "field",
+											"name": "Malice",
+											"value": 3,
+											"repeatable": false,
+											"effect": "While bleeding this way, the target takes an additional 1d3 damage whenever they take damage."
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "3WcE1-Ks7DI-zOx1u-5leoe-HJXn5-3nm5f",
+							"name": "Spore Cells",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "B4ueh-ffMlz-czrkk-mxydO-2MtbG-rgzRF",
+									"name": "Spore Cells",
+									"description": "",
+									"type": {
+										"usage": "Triggered Action",
+										"free": false,
+										"trigger": "A creature deals damage to the susurrus",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false
+									},
+									"keywords": [
+										"Area"
+									],
+									"distance": [
+										{
+											"type": "Burst",
+											"value": 2,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "The triggering creature",
+									"cost": 0,
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "roll",
+											"roll": {
+												"characteristic": [],
+												"bonus": 2,
+												"tier1": "3 poison damage; weakened (EoT)",
+												"tier2": "5 poison damage; weakened (EoT)",
+												"tier3": "8 poison damage; weakened (EoT)"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "6kqUx-KZxTp-982uO-6Dx27-dFtBc-6Ohgr",
+							"name": "Unravelling body",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "KD9tV-Bcesh-AVJHs-NsLIY-hqh3G-oZ1CH",
+									"name": "Unravelling body",
+									"description": "",
+									"type": {
+										"usage": "Maneuver",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false
+									},
+									"keywords": [],
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "Self",
+									"cost": 0,
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "field",
+											"name": "Effect:",
+											"value": 0,
+											"repeatable": false,
+											"effect": "The susurrus shifts 5 squares and uses the Hide maneuver as a free maneuver."
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "567Oa-cgPSd-ZQDFN-CyZsd-ZDcyW-6mIIu",
+							"name": "Twisting Shredder",
+							"description": "The susurrus can move through creatures and objects at their usual speed but can’t end their turn inside a creature or object. The first time in a round that the susurrus moves through a creature,  that creature takes 4 damage.",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "rOQVq-se5Gt-tqBuB-r821F-tkegk-kTM96",
+							"name": "Cryptochrome",
+							"description": "The susurrus ignores concealment created by darkness.",
+							"type": "Text",
+							"data": null
+						}
+					],
+					"withCaptain": "",
+					"retainer": null,
+					"state": {
+						"staminaDamage": 0,
+						"staminaTemp": 0,
+						"recoveriesUsed": 0,
+						"conditions": [],
+						"reactionUsed": false,
+						"hidden": false,
+						"defeated": false
+					}
+				},
+				{
+					"id": "ddbb1cbc-10bf-4bfc-86d1-1ab834d52ea2",
+					"name": "Threxyl Bodysnatcher",
+					"description": "",
+					"picture": null,
+					"level": 2,
+					"role": {
+						"type": "No Role",
+						"organization": "Leader"
+					},
+					"keywords": [
+						"Plant"
+					],
+					"encounterValue": 16,
+					"size": {
+						"value": 2,
+						"mod": "M"
+					},
+					"speed": {
+						"value": 5,
+						"modes": []
+					},
+					"stamina": 100,
+					"stability": 1,
+					"freeStrikeDamage": 5,
+					"freeStrikeType": "Damage",
+					"characteristics": [
+						{
+							"characteristic": "Might",
+							"value": 3
+						},
+						{
+							"characteristic": "Agility",
+							"value": 2
+						},
+						{
+							"characteristic": "Reason",
+							"value": 0
+						},
+						{
+							"characteristic": "Intuition",
+							"value": 1
+						},
+						{
+							"characteristic": "Presence",
+							"value": -1
+						}
+					],
+					"features": [
+						{
+							"id": "f4c616a9-2d1a-4e6c-8345-9f5ff3f1b6f7",
+							"name": "Barbed Tendrils",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "95290375-11e2-4f86-8c19-1e37597ac072",
+									"name": "Barbed Tendrils",
+									"description": "",
+									"type": {
+										"usage": "Main Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false
+									},
+									"keywords": [
+										"Ranged"
+									],
+									"distance": [
+										{
+											"type": "Ranged",
+											"value": 6,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "Two creatures or objects",
+									"cost": "signature",
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "roll",
+											"roll": {
+												"characteristic": [],
+												"bonus": 3,
+												"tier1": "7 damage; A<1 pull 5 and grabbed",
+												"tier2": "10 damage; A<2 pull 5 and grabbed",
+												"tier3": "13 damage; A<3 pull 5 and grabbed"
+											}
+										},
+										{
+											"type": "field",
+											"name": "Effect: ",
+											"value": 0,
+											"repeatable": false,
+											"effect": "The bodysnatcher can grab up to two creatures at a time. The bodysnatcher doesn’t suffer a bane on this ability when an enemy is adjacent to them."
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "0c945a50-3530-47a0-8123-427e8ef3fe55",
+							"name": "Propogate clone",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "b8e7e66b-8a72-4a3a-ae21-91e15fe3cf6d",
+									"name": "Propogate clone",
+									"description": "",
+									"type": {
+										"usage": "Maneuver",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false
+									},
+									"keywords": [],
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "One grabbed creature",
+									"cost": 5,
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "field",
+											"name": "Effect: ",
+											"value": 0,
+											"repeatable": false,
+											"effect": "The target is vertical pushed up to 6 squares. A threxyl clone of the target creature crawls out of the bodysnatcher and\nappears in an adjacent square. This clone uses the same stat block as the target creature. If a hero is cloned, the bodysnatcher spawns a doppelganger of them which uses the **threxyl clone (hero)** stat block instead. The bodysnatcher can’t clone a creature of a level higher than their own."
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "d2bee472-1fd9-4f7b-926f-28540436bad7",
+							"name": "End Effect",
+							"description": "At the end of each of their turns, the bodysnatcher can take 5 damage and end one effect on them that can be ended by a saving throw. This damage can’t be reduced in any way.",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "4faca377-fb7b-48f9-864f-d022e64206ff",
+							"name": "Biochemical Breakdown",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "c1d2ed5b-fdf4-453a-a27c-fa793ba3c39e",
+									"name": "Biochemical Breakdown",
+									"description": "",
+									"type": {
+										"usage": "Triggered Action",
+										"free": false,
+										"trigger": "An allied threxyl clone within 10 squares dies.",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false
+									},
+									"keywords": [],
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "The triggering creature",
+									"cost": 0,
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "field",
+											"name": "Effect:",
+											"value": 0,
+											"repeatable": false,
+											"effect": "The clone explodes in a cloud of poison gas, dealing 1d6 poison damage to all adjacent creatures."
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "3c104dbf-8b39-4088-b42e-a159549dda07",
+							"name": "Clone Symbiosis",
+							"description": "When a threxyl clone created by the bodysnatcher dies, the bodysnatcher takes damage equal to the clone’s EV. When the bodysnatcher dies, all clones they have created die.",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "9a86e36e-1b65-4822-a12f-6fa64232e334",
+							"name": "Photosynthesis",
+							"description": "When the bodysnatcher starts their turn in direct sunlight, they gain 10 temporary Stamina and an edge on power rolls until the end of their turn.",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "00cc69f5-604f-48d8-9b40-e4b5930b58f0",
+							"name": "Cryptochrome",
+							"description": "The bodysnatcher ignores concealment created by darkness.",
+							"type": "Text",
+							"data": null
+						},
+						{
+							"id": "4a4887d9-1c59-4fb2-97f1-2a3fa9be5f35",
+							"name": "Nutrient Pump",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "404ddf9d-1f86-4630-af16-b3ea3cfe6a82",
+									"name": "Nutrient Pump",
+									"description": "",
+									"type": {
+										"usage": "Villain Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false,
+										"order": 1
+									},
+									"keywords": [],
+									"distance": [
+										{
+											"type": "Burst",
+											"value": 10,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "Each ally in the area",
+									"cost": 0,
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "field",
+											"name": "Effect:",
+											"value": 0,
+											"repeatable": false,
+											"effect": "Each target gains 5 temporary Stamina, shifts up to 3 squares, and can make a free strike."
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "2c9ba78f-d0bb-455f-bfcc-70c13cf8f99f",
+							"name": "Xylem Agitator",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "7c5b4ffa-0c31-4a1d-be08-028656e76971",
+									"name": "Xylem Agitator",
+									"description": "",
+									"type": {
+										"usage": "Villain Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false,
+										"order": 2
+									},
+									"keywords": [],
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "Self",
+									"cost": 0,
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "field",
+											"name": "Effect:",
+											"value": 0,
+											"repeatable": false,
+											"effect": "The bodysnatcher and all threxyl clones within 10 squares shift 5 squares and make a free strike."
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "06a379a9-39a5-4cc9-bca1-dd7ed05dccf2",
+							"name": "Tendril Explosion",
+							"description": "",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "920b8ec8-39e6-4aa2-877d-1a2c24e9b46b",
+									"name": "Tendril Explosion",
+									"description": "",
+									"type": {
+										"usage": "Villain Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
+										"qualifiers": [],
+										"freeStrike": false,
+										"order": 3
+									},
+									"keywords": [
+										"Area"
+									],
+									"distance": [
+										{
+											"type": "Burst",
+											"value": 10,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "All enemies in the area",
+									"cost": 0,
+									"repeatable": false,
+									"minLevel": 1,
+									"sections": [
+										{
+											"type": "roll",
+											"roll": {
+												"characteristic": [],
+												"bonus": 3,
+												"tier1": "8 damage; A<1 pull 5 and grabbed",
+												"tier2": "11 damage; A<2 pull 5 and grabbed",
+												"tier3": "14 damage; A<3 pull 5 and grabbed"
+											}
+										},
+										{
+											"type": "field",
+											"name": "Effect:",
+											"value": 0,
+											"repeatable": false,
+											"effect": "The bodysnatcher can grab up to two creatures at a time."
+										}
+									]
+								}
+							}
+						}
+					],
+					"withCaptain": "",
+					"retainer": null,
+					"state": {
+						"staminaDamage": 0,
+						"staminaTemp": 0,
+						"recoveriesUsed": 0,
+						"conditions": [],
+						"reactionUsed": false,
+						"hidden": false,
+						"defeated": false
+					}
+				}
+			]
+		}
+	],
+	"montages": [
+		{
+			"id": "bmGXYwNYvgYsSkRZ",
+			"name": "Travel to new area (hazardous)",
+			"description": "The heroes need to navigate to a new area or settlement, with some hazardous situation being present.  It may be a forest full or predatory beasts, a cave system or wilderness that has natural hazards, or is not easy to find.  It could also be a settlement that is under siege, or hostile to the heroes and they need to approach without detection.",
+			"difficulty": "Standard",
+			"scene": "You have not been to this place before, and you have learned that your journey will be hazardous if you are to arrive safely and achieve your goal.",
+			"sections": [
+				{
+					"id": "montage-wilderness-race-main",
+					"name": "",
+					"description": "",
+					"challenges": [
+						{
+							"id": "avoid-hazards",
+							"name": "Avoid Hazards",
+							"description": "Characters can determine ways to overcome the natural hazards of the wilderness, such as finding insect-repelling herbs in a swamp or making snowshoes to cross tundra.\nThe player needs to pitch their solution and the relevant skill.",
+							"characteristics": [
+								"Intuition",
+								"Reason"
+							],
+							"skills": "Heal, Nature, an appropriate skill from the Crafting skill group (such as Alchemy to make bug repellent)",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						},
+						{
+							"id": "find-the-path",
+							"name": "Find the Path",
+							"description": "Avoiding getting lost is a major challenge for the characters.",
+							"characteristics": [
+								"Intuition",
+								"Reason"
+							],
+							"skills": "Alertness, Nature, Navigation",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						},
+						{
+							"id": "keep-up-spirits",
+							"name": "Keep Up Spirits",
+							"description": "Characters can keep up the party’s morale during the dangerous travel.",
+							"characteristics": [
+								"Presence"
+							],
+							"skills": "Lead, Music, Performance",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						},
+						{
+							"id": "keep-watch",
+							"name": "Keep Watch",
+							"description": "Characters must be on constant guard against danger.",
+							"characteristics": [
+								"Intuition"
+							],
+							"skills": "Alertness, Eavesdrop, Track",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						},
+						{
+							"id": "push-on",
+							"name": "Push On",
+							"description": "There will not always be a safe place to stop, so characters must be ready to pick up the pace and push past their fatigue.",
+							"characteristics": [
+								"Might"
+							],
+							"skills": "Endurance, Lead; Handle Animals, Drive, or Ride if the party has mounts or vehicles",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						},
+						{
+							"id": "scout-ahead",
+							"name": "Scout Ahead",
+							"description": "Investigating the path ahead lets the characters avoid dead-ends and arduous terrain",
+							"characteristics": [
+								"Agility",
+								"Intuition"
+							],
+							"skills": "Alertness, Navigation, Sneak",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						},
+						{
+							"id": "PPxjvB5k1yfYBKym",
+							"name": "Avoid detection",
+							"description": "This is hazardous terrain, and the party is trying to remain undetected by predators or potential enemies.",
+							"characteristics": [
+								"Intuition",
+								"Agility"
+							],
+							"skills": "Sneak, Navigation",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						}
+					],
+					"twistInfo": "",
+					"twists": [
+						{
+							"id": "predatory-monster",
+							"name": "Predatory Monster",
+							"description": "The characters stumble into or are stalked by a monstrous predator, and must engage in a standard combat encounter to overcome the threat or drive it off. If any character has obtained a success on the Scout Ahead challenge, you can let the characters make a group test to sneak past or set an ambush for the monster.",
+							"characteristics": [],
+							"skills": "",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						},
+						{
+							"id": "unexpected-hazard",
+							"name": "Unexpected Hazard",
+							"description": "A natural hazard such as an avalanche, rockslide, or wildfire interrupts the journey. Each hero must make a test of your choice to avoid the hazard, losing a Recovery on a failure.",
+							"characteristics": [],
+							"skills": "",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						}
+					]
+				}
+			],
+			"outcomes": {
+				"totalSuccess": "The heroes reach their goal safely and undetected. Each character earns 2 Victories if the montage test was hard, or 1 Victory if it was easy or moderate, in addition to any Victories earned from combat during the montage test.\n\nIf there is a combat encounter following this montage test, the heroes start with surprise.",
+				"partialSuccess": "The party has safety, but it was a difficult and stressful journey.  Each hero looses 1 Recoveries.  If a hero does not have 1 or more Recoveries, they lose a Recovery worth of Stamina.  Each character earns 1 Victory if the montage test was moderate or hard, in addition to any Victories earned from combat during the montage test.",
+				"totalFailure": "The heroes arrive, but suffered an attack, injury, or other setback related to the hazards in the terrain.  They each lose 2 Recoveries. If a hero does not have 2 or more Recoveries, they lose what Recoveries they have and Stamina equivalent to the Recoveries that they don't have."
+			}
+		},
+		{
+			"id": "G5xvn-6Mtvy-qgupc-O2CyI-ktljS-VqBQ9",
+			"name": "Controlled burn in a forest",
+			"description": "Fire has broken out in the town! The heroes must prevent the conflagration from spreading while saving as many townsfolk as possible. Their efforts might be more complicated if the cause of the fire — such as a marauding dragon or an invading army — is still around causing trouble.",
+			"difficulty": "Standard",
+			"scene": "The PCs have decided to clear an area of brambles or similar with fire.",
+			"sections": [
+				{
+					"id": "LQm0w-1OOSP-10sgW-NQHJj-8Cwl6-FbzmV",
+					"name": "",
+					"description": "",
+					"challenges": [
+						{
+							"id": "clearing-a-firebreak",
+							"name": "Clearing a Firebreak",
+							"description": "Prevent the fire from spreading by clearing the ground of flammable materials, either by moving it or burning it away. A creature loses a Recovery if they incur a consequence on this test.",
+							"characteristics": [
+								"Might",
+								"Reason"
+							],
+							"skills": "Endurance, Lift",
+							"abilities": "Abilities that deal fire damage",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						},
+						{
+							"id": "find-more-firefighters",
+							"name": "Find More Firefighters",
+							"description": "Find groups that aren’t fighting the fire, such as fleeing civilians, and convince them to help.",
+							"characteristics": [
+								"Presence"
+							],
+							"skills": "Intimidate, Lead, Persuade",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						},
+						{
+							"id": "move-burning-rubble",
+							"name": "Move Burning Rubble",
+							"description": "Shifting burning debris blocking doorways to allow people to escape the blaze. A creature that doesn’t have fire immunity loses a Recovery if they incur a consequence on this test.",
+							"characteristics": [
+								"Might"
+							],
+							"skills": "Endurance, Lift",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						}
+					],
+					"twistInfo": "At the end of the first montage test round, an emergency crops up. One or more heroes, selected by the players, must deal with the situation before the end of the round. If the heroes successfully deal with the twist, they earn a success for the montage test. Otherwise, they earn a failure.",
+					"twists": [
+						{
+							"id": "building-collapse",
+							"name": "Building Collapse",
+							"description": "While a hero is in or near a blazing building, it starts to collapse. The hero must escape before the building crumbles.",
+							"characteristics": [
+								"Agility",
+								"Intuition"
+							],
+							"skills": "Climb, Jump, Gymnastics",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						},
+						{
+							"id": "cause-of-the-fire",
+							"name": "Cause of the Fire",
+							"description": "At the end of the first round of the montage test, the hostile cause of the fire appears — a squad of an invading army, a dragon, a team of arsonists, and so forth. The characters must engage in a standard or hard encounter with this threat",
+							"characteristics": [],
+							"skills": "",
+							"abilities": "",
+							"uses": 1,
+							"successes": 0,
+							"failures": 0
+						}
+					]
+				}
+			],
+			"outcomes": {
+				"totalSuccess": "The fire is extinguished. Buildings are damaged but no lives were lost. The party achieves 2 Victories if the montage test was hard, or 1 Victory if it was easy or moderate, in addition to any Victories earned from combat during the montage test.",
+				"partialSuccess": "The fire is quenched, although many buildings burned and a few lives were lost. Each character earns 1 Victory if the montage test was moderate or hard, in addition to any Victories earned from combat during the montage test.",
+				"totalFailure": "When the fire finally burns out, the town lies in ruins. Townsfolk mourn their dead or grimly prepare to find a new home. Characters earn no Victories from the montage test, but might earn Victories from combat undertaken during the montage test"
+			}
+		}
+	],
+	"negotiations": [
+		{
+			"id": "Une8v-4wL2H-IZNEN-Morb2-ceOkK-xb6EE",
+			"name": "Broadhurst townfolk - upset",
+			"description": "The townsfolk are upset with the heroes.  They won't turn them away, but will resist helping and making things worse.",
+			"attitude": "Suspicious",
+			"impression": 0,
+			"interest": 2,
+			"patience": 2,
+			"motivations": [
+				{
+					"trait": "Peace",
+					"description": ""
+				},
+				{
+					"trait": "Freedom",
+					"description": ""
+				},
+				{
+					"trait": "Protection",
+					"description": ""
+				}
+			],
+			"pitfalls": [
+				{
+					"trait": "Power",
+					"description": ""
+				},
+				{
+					"trait": "Vengeance",
+					"description": ""
+				},
+				{
+					"trait": "Protection",
+					"description": ""
+				}
+			],
+			"languages": [
+				"Caelian"
+			],
+			"outcomes": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				""
+			]
+		}
+	],
+	"perks": [],
+	"projects": [],
+	"subclasses": [],
+	"tacticalMaps": [],
+	"terrain": [],
+	"titles": [],
+	"skills": [],
+	"languages": []
+}
